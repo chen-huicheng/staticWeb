@@ -4,7 +4,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "leo 的博客",
   description: "一蓑烟雨任平生",
-  base: '/staticWeb/',
+  base: '/leoblog/',
 
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
