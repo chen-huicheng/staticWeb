@@ -1,0 +1,17 @@
+{
+  "name": "leo-bolgs",
+  "version": "2.0.0",
+  "description": "leo-blogs",
+  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
+  "author": "reco_luan <recoluan@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-reco": "2.0.0-rc.5"
+  }
+}
