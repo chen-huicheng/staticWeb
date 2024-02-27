@@ -5,11 +5,12 @@ export default defineUserConfig({
   title: "leo 的博客",
   description: "一蓑烟雨任平生",
   base: '/leoblog/',
+  head: [['link', { rel: 'icon', href: '/leoblog/web_icon.png' }]],
 
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     author: "leo",
-    authorAvatar: "/head.jpg",
+    authorAvatar: "/leo.png",
     docsBranch: "master",
     docsDir: "docs",
     lastUpdatedText: "repoly",
@@ -25,7 +26,7 @@ export default defineUserConfig({
       "/blogs": [
         {
           text: "ChatGPT",
-          children: ["/blogs/chatgpt/update_gpt4"],
+          children: ["/blogs/chatgpt/update_gpt4","/blogs/chatgpt/sora"],
         },
         {
             text: "服务器",
@@ -56,18 +57,13 @@ export default defineUserConfig({
     ],
    
     // commentConfig: {
-    //   type: 'valine',
-    //   // options 与 1.x 的 valineConfig 配置一致
+    //   type: 'waline',
     //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
+    //     serverURL:'https://vercel-brcyoyj2c-chen-huichengs-projects.vercel.app/'
     //     // hideComments: true // 隐藏评论
     //   },
     // },
   }),
   // debug: true,
 });
+

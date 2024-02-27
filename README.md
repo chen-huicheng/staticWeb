@@ -17,4 +17,3 @@ actionText: About
 actionLink: /views/other/about
 ---
 
-## 快速开始

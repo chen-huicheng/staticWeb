@@ -2,8 +2,8 @@
   "name": "leo-bolgs",
   "version": "2.0.0",
   "description": "leo-blogs",
-  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
-  "author": "reco_luan <recoluan@outlook.com>",
+  "repository": "git@github.com:chen-huicheng/staticWeb.git",
+  "author": "leo",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev .",
