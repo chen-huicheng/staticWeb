@@ -4,8 +4,8 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "leo 的博客",
   description: "一蓑烟雨任平生",
-  base: '/',
-  head: [['link', { rel: 'icon', href: '/web_icon.png' }]],
+  base:"/",
+  head: [['link', { rel: 'icon', href: '/web_icon.ico' }]],
 
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
