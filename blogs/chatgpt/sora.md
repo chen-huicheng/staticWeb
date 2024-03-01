@@ -1,5 +1,5 @@
 ---
-title: sora 是什么，真的很厉害吗
+title: 探索Sora：视频生成的未来
 date: 2024/2/25
 tags:
  - AI
@@ -18,7 +18,7 @@ GPT4 的回答还是很准确的，总结以下几点：
 2. Sora 的技术基础是 DALL-E 3 的技术，也就是 GPT4 现有的能力
 3. Sora 的能力还有待提升，我们看到的视频是经过筛选的，并不是其典型能力
 
-（PS：目前OpenAI只对部分用户开放了Sora的使用权限，如果想体验 GPT4 文生图，可以看这个教程 [如何升级 ChatGPT 4.0](update_gpt4.md)）
+**（PS：目前OpenAI只对部分用户开放了Sora的使用权限，如果想体验 GPT4 文生图，可以看这个教程 [如何升级 ChatGPT 4.0](update_gpt4.md)）**
 
 ## Sora 官网
 我们通过官网 https://openai.com/sora 探究一下 Sora，官网中所有的视频均是 sora 直接生成的。

@@ -4,5 +4,5 @@ date: 2024/02/25
 ---
 
 <div align=center>
-<img src="../imgs/4561cd551c66e058fd1320f30e4f24a.jpg"  style="zoom:50%;" >
+<img src="../imgs/wechat.jpg"  style="zoom:50%;" >
 </div>

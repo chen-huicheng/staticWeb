@@ -8,10 +8,6 @@ categories:
  - ChatGPT
 ---
 
-## 如何升级 ChatGPT 4.0
-
-
-
 1. 申请一张国外虚拟信用卡
 2. 访问ChatGPT网站，点击升级
 3. 通过虚拟卡平台一键升级

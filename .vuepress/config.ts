@@ -4,8 +4,8 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "leo 的博客",
   description: "一蓑烟雨任平生",
-  base: '/leoblog/',
-  head: [['link', { rel: 'icon', href: '/leoblog/web_icon.png' }]],
+  base: '/',
+  head: [['link', { rel: 'icon', href: '/web_icon.png' }]],
 
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -17,23 +17,30 @@ export default defineUserConfig({
 
     // series 为原 sidebar
     series: {
-      "/docs/golang/": [
-        {
-          text: "guide",
-          children: ["guide"],
-        }
-      ],
-      "/blogs": [
-        {
-          text: "ChatGPT",
-          children: ["/blogs/chatgpt/update_gpt4","/blogs/chatgpt/sora"],
-        },
-        {
-            text: "服务器",
-            children: ["/blogs/server/redis_lock"],
-            collapsible: true
-        }
-      ],
+        "/docs/golang/": [
+            {
+                text: "guide",
+                children: ["guide"],
+            }
+        ],
+        "/blogs": [
+            {
+                text: "ChatGPT",
+                children: [
+                    "/blogs/chatgpt/onlyfans",
+                    "/blogs/chatgpt/know_chatgpt",
+                    "/blogs/chatgpt/update_gpt4",
+                    "/blogs/chatgpt/sora",
+                    "/blogs/chatgpt/use_gpt4",
+                    "/blogs/chatgpt/proxy_recharge",
+                ],
+            },
+            {
+                text: "服务器",
+                children: ["/blogs/server/redis_lock"],
+                collapsible: true
+            }
+        ],
     },
     navbar: [
       { text: "首页", link: "/", icon: 'Home'},
